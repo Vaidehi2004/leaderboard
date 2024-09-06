@@ -1,0 +1,266 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.main {
+  background-image: radial-gradient(ellipse at top, #222 0%, #222 70%, transparent 70%);
+  color: #fff;
+  padding: 2rem;
+  width: 1250px;
+  text-align: center;
+  height: calc(100vh / 2);
+}
+
+.main h2 {
+  margin-bottom: 1rem;
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(ellipse at top, #222 0%, #222 70%, transparent 70%);
+  width: 1260px;
+  text-align: center;
+  /* height: calc(100vh / 2); */
+  height: 400px;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 7px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav button {
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1024px;
+ 
+  padding: 2rem;
+  /* margin: auto; */
+  margin-left: 150px;
+}
+.container h2{
+  color: #f7f7f7;
+}
+
+.main {
+  /* background-color: #fff;
+  padding: 2rem;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+  /* position: relative;
+  display: flex;*/
+  /* flex-direction: column; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  /* width: 100%; */
+  height: fit-content;
+  padding: 20px;
+  overflow: hidden;
+  /* width: 800px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  
+}
+
+.leaderboard {
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+  background-color: #fff;
+  /* padding: 1rem; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  width: 1000px;
+  height: fit-content;
+  padding: 10px;
+}
+.right-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+ 
+}
+.leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.rank {
+  font-size: 1.5rem;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: left;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.score {
+  color: #777;
+}
+.mercury-league{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  height: 150px;
+  width: 300px;
+}
+.mercury-league h2{
+  color: #222;
+  text-align: left;
+  margin-left: 3px;
+  margin-top: 2px;
+  font-size: 20px;
+}
+.earn-xp{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: 300px;
+}
+.earn-xp h2{
+  color: #222;
+  text-align: left;
+  margin-left: 3px;
+  margin-top: 2px;
+  font-size: 20px;
+}
